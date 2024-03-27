@@ -1,0 +1,10 @@
+table {
+  border-collapse: collapse; /* fusiona los bordes de las celdas en uno solo */
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black; /* define el grosor del borde y el estilo */
+  padding: 8px; /* añade espacio alrededor del contenido de las celdas */
+  text-align: left; /* alinea el texto a la izquierda */
+}
