@@ -6,7 +6,7 @@ import { ListComponent } from './list/list.component';
 
 @NgModule({
   imports: [
-    //importaciones en este caso commonModules es por las directivas de ngif y ngfor
+    //importaciones en este caso commonModules es por las directivas de ngif y ngfor como tambien los modulos
     CommonModule
   ],
   exports: [
