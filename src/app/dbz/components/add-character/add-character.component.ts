@@ -13,18 +13,21 @@ export class AddCharacterComponent {
 
   public characterAdd : Character =
     {
-      name : 'fgh',
+      name : '',
       power : 0
     }
 
   emitCharacter() : void {
-    console.log(this.characterAdd)
+    console.log("lo que llego", this.characterAdd)
     //validacion para el nombre
     if ( this.characterAdd.name.length === 0 ) return;
 
+    //emitir al padre 
+    this.onNewCharacter.emit({ ...this.characterAdd});
+
+    //limpiando
     this.characterAdd.name = '';
     this.characterAdd.power = 0;
-
 
   }
 }

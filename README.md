@@ -1,27 +1,33 @@
-# Bases
+# Bases de angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+Aplicación Angular para gestión de personajes (listar y agregar) enfocada en:
+- Comunicación entre componentes
+- Formulario
+- Almacenamiento y modificación de información dentro de la app
 
-## Development server
+## Tecnologias
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular
+- TypeScript
 
-## Code scaffolding
+## Requisitos previos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Node.js (version recomendada LTS)
+- Angular CLI
 
-## Build
+## Instalación y ejecución
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- git clone <URL_DEL_REPOSITORIO>
+- cd angular-bases
+- npm install
+- ng serve -o
+- La aplicación se ejecutará en http://localhost:4200 o puerto que indique la terminal
 
-## Running unit tests
+## Nota 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Si el comando ng no es reconocido, instala Angular CLI de forma global:
+npm install -g @angular/cli
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
